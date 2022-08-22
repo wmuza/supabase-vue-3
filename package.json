@@ -1,7 +1,7 @@
 {
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "start": "vite --port 3001",
     "build": "vite build",
     "serve": "vite preview"
   },
@@ -13,5 +13,18 @@
     "@vitejs/plugin-vue": "^1.2.3",
     "@vue/compiler-sfc": "^3.0.5",
     "vite": "^2.3.7"
-  }
+  },
+  "name": "supabase-vue-3",
+  "description": "Full tutorial available at [Supabase Guide](https://supabase.io/docs/guides/with-vue-3)",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmuza/supabase-vue-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmuza/supabase-vue-3/issues"
+  },
+  "homepage": "https://github.com/wmuza/supabase-vue-3#readme"
 }
